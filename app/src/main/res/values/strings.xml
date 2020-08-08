@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Restaurant app</string>
+    <string name="res_name">Chunk &amp; Cheese</string>
+    <string name="pl">ORDER CONFIRMED\n thank you for your order!\n\n We have recieved  your\norder and will\n contact you soon</string>
+    <string-array name="usertype">
+        <item>user</item>
+        <item>admin</item>
+    </string-array>
+    <string-array name="cities">
+
+        <item>Karachi</item>
+        <item>Lahore</item>
+        <item>Islamabad</item>
+    </string-array>
+
+
+    <string-array name="rwp_branch_name">
+        <item>Chakala Scheme III</item>
+        <item>IJP Road</item>
+        <item>Blue Area </item>
+    </string-array>
+    <string-array name="lhr_branch_name">
+        <item> Shadman road</item>
+        <item>Bahria town</item>
+        <item>Johar town</item>
+    </string-array>
+    <string-array name="karachi_branch_name">
+        <item>Gulshan KHI</item>
+        <item>Malir Cantt KHI</item>
+        <item>Gulistan e Johar KHI </item>
+    </string-array>
+    <string-array name="lhr_branch_detail">
+        <item>Plot#3 block Z</item>
+        <item>Mall 96 B-2 main M.M alam road</item>
+        <item>Plot#64 Block R-1 Near mezan bank.</item>
+    </string-array>
+    <string-array name="kcr_branch_detail">
+        <item>Plot#45 Block A</item>
+        <item>Near national bank QUAID E AZAM road</item>
+        <item>Near defence road</item>
+    </string-array>
+
+    <string-array name="rwp_branch_detail">
+        <item>Main commercial Branch...</item>
+        <item>Al Hameed plaza shop# 5</item>
+        <item>Plot# 109 near lasania hotel </item>
+    </string-array>
+    <string-array name="branch_names">
+        <item></item>
+        <item>Lahore</item>
+        <item>Rawalpindi</item>
+        <item>Karachi</item>
+    </string-array>
+
+
+</resources>

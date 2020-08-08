@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/wooden1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Takeaway">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:textColor="@color/white"
+        android:text="Select Branch"/>
+
+    <Spinner
+
+        android:id="@+id/branchName"
+        android:layout_width="393dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/white"
+        android:entries="@array/branch_names"
+        android:padding="12dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:fontFamily="sans-serif-condensed-medium"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp" />
+</LinearLayout>

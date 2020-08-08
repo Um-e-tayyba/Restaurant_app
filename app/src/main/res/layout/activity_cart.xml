@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/wooden1"
+    android:orientation="vertical"
+    >
+
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.restaurantapp.fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height=   "50dp"
+        android:textColor="@color/white"
+        android:text="ORDER DETAILS"
+        android:id="@+id/f1"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_below="@id/f1"
+        android:layout_height=   "wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:id="@+id/f2"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/f3"
+        android:layout_width="wrap_content"
+        android:layout_height=   "wrap_content"
+        android:layout_below="@id/f2"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        ></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_below="@id/f3"
+        android:layout_height=   "wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/f4"
+        android:textSize="25sp"
+        ></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_below="@id/f4"
+        android:layout_height=   "wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/f5"
+        android:textSize="25sp"
+        ></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_below="@id/f5"
+        android:layout_height=   "wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/f6"
+        android:textSize="25sp"
+        ></EditText>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_below="@id/f6"
+        android:layout_height=   "wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/f7"
+        android:textSize="25sp"
+        ></EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/FButton"
+        android:layout_below="@id/f7"
+        android:layout_marginTop="27dp"
+        android:textColor="@color/white"
+        android:background="#FF0000"
+        android:text="FINISH ORDER"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

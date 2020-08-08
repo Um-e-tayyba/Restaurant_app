@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/wooden1"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOW WOULD YOU LIKE TO PAY FOR YOUR ORDER ! "
+        android:layout_marginTop="30dp"
+        android:textColor="@color/white"
+        android:id="@+id/fot1"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fofirstButton"
+        android:layout_below="@id/fot1"
+        android:layout_marginTop="27dp"
+        android:textColor="@color/white"
+        android:background="#0000FF"
+        android:text="CASH"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fosecondButton"
+        android:layout_below="@id/fofirstButton"
+        android:layout_marginTop="27dp"
+        android:textColor="@color/white"
+        android:background="#FF0000"
+        android:text="CREDIT CARD"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fothirddButton"
+        android:layout_below="@id/fosecondButton"
+        android:layout_marginTop="27dp"
+        android:textColor="@color/white"
+        android:background="#FF0000"
+        android:text="KEENU"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fofourthButton"
+        android:layout_below="@id/fothirddButton"
+        android:layout_marginTop="27dp"
+        android:textColor="@color/white"
+        android:background="#0000ff"
+        android:text="CREDIT/DEBIT AT YOUR DOOR"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

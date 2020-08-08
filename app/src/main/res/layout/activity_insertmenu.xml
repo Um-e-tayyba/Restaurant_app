@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/wooden1"
+    tools:context=".insertmenu">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Insert Menu"
+        android:layout_gravity="top|center"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center"
+        android:background="@color/white"
+        android:textSize="25dp"
+        android:layout_marginBottom="15dp"
+        android:hint="food name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed2"
+        android:textSize="25dp"
+        android:background="@color/white"
+        android:hint="food description"
+        android:layout_gravity="top|center"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed3"
+        android:textSize="25dp"
+        android:background="@color/white"
+        android:hint="Minimum price of food"
+        android:layout_gravity="top|center"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed5"
+        android:textSize="25dp"
+        android:background="@color/white"
+        android:hint="food type"
+        android:layout_gravity="top|center"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed4"
+        android:textSize="25dp"
+        android:background="@color/white"
+        android:hint="food image"
+        android:layout_gravity="top|center"
+        android:layout_marginBottom="15dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed6"
+        android:textSize="25dp"
+        android:hint="pizza price"
+        android:background="@color/white"
+        android:layout_gravity="top|center"
+        android:layout_marginBottom="15dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="insert menu"
+        android:textSize="25dp"
+        android:onClick="Insert"
+        android:layout_gravity="top|center"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete menu"
+        android:textSize="25dp"
+        android:onClick="Delete"
+        android:layout_gravity="top|center"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Logout"
+        android:id="@+id/logout"
+        android:onClick="Logout"
+        android:layout_gravity="center|top"
+        />
+
+
+</LinearLayout>

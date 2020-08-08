@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/popup_choice1"
+        android:title="hand tossed"/>
+    <item
+        android:id="@+id/popup_choice2"
+        android:title="pan"/>
+    <item
+        android:id="@+id/popup_choice3"
+        android:title="Italian thin"/>
+    <item
+        android:id="@+id/popup_choice4"
+        android:title="Crunchy thin"/>
+    <item
+        android:id="@+id/popup_choice5"
+        android:title="Double melt"/>
+
+</menu>

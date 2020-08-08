@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/wooden1">
+
+        <TextView
+            android:id="@+id/txv2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="60dp"
+            android:background="@color/colorRed"
+            android:gravity="center"
+
+            android:text="@string/res_name"
+            android:textColor="@color/colorWhite"
+
+            android:textSize="40sp"
+
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/txv1"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txv2"
+            android:layout_marginTop="40dp"
+
+            android:gravity="center"
+            android:text="LOGIN"
+            android:textColor="@color/colorWhite"
+            android:textSize="40dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/emailid"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txv1"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorWhite"
+            android:hint="email"
+            android:inputType="textEmailAddress"
+
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/pass1"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/emailid"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorWhite"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="25sp"
+
+            />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pass1"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorWhite"
+            android:text="Select UserType"
+
+            android:textSize="20sp"
+
+
+            />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="140dp"
+            android:layout_height="20dp"
+            android:layout_below="@id/pass1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/textView"
+            android:background="@color/colorWhite"/>
+
+
+
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinner"
+            android:layout_marginLeft="120dp"
+            android:textSize="25sp"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorRed"
+
+            android:text="LOGIN"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/login3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/spinner"
+            android:layout_marginLeft="20dp"
+            android:textSize="25sp"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@id/loginbutton"
+            android:background="@color/colorRed"
+
+            android:text="SIGNUP"
+            android:textColor="@color/colorWhite" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

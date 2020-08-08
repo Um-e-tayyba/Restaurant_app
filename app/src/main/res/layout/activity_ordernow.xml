@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ordernow"
+    android:background="@drawable/wooden1"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:id="@+id/ordername"
+
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/orderimage"
+        android:layout_below="@id/ordername"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Description"
+        android:layout_marginBottom="25dp"
+        android:layout_below="@id/orderimage"
+        android:textColor="@color/white"
+        android:id="@+id/descriptionheading"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:layout_marginBottom="35dp"
+        android:layout_below="@id/descriptionheading"
+        android:textColor="@color/yellow"
+        android:id="@+id/orderdescription"
+
+        />
+
+    <TextView
+        android:id="@+id/crustheading"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/orderdescription"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-38dp"
+        android:text="Crust"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:textSize="20dp"
+
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:layout_below="@id/orderdescription"
+        android:textColor="@color/colorPrimary"
+        android:hint="select crust"
+
+
+        android:background="@color/white"
+        android:id="@+id/crust"
+        android:layout_marginBottom="5dp"
+
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:layout_below="@id/crust"
+        android:textColor="@color/white"
+        android:text="Size"
+        android:textStyle="bold"
+        android:paddingTop="10dp"
+
+        android:id="@+id/sizeheading"
+
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:layout_below="@id/sizeheading"
+        android:textColor="@color/colorPrimary"
+        android:hint="select size"
+        android:background="@color/white"
+        android:id="@+id/size"
+
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        android:layout_below="@id/size"
+        android:textColor="@color/white"
+        android:text="Extra Toppings"
+android:textStyle="bold"
+        android:id="@+id/toppingsheading"
+
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toppingsheading"
+        android:text="mushrooms"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:id="@+id/cb1"
+        android:checked="false"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/toppingsheading"
+        android:text="Cheese"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:id="@+id/cb6"
+        android:layout_marginLeft="180dp"
+        android:checked="false"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cb1"
+        android:text="Green Chillies"
+        android:id="@+id/cb2"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:checked="false"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cb1"
+
+        android:text="Sweet corn"
+        android:id="@+id/cb7"
+        android:layout_marginLeft="180dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:checked="false"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cb2"
+        android:text="Tomatoes"
+        android:id="@+id/cb3"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:checked="false"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@id/cb2"
+        android:text="Olives"
+        android:id="@+id/cb8"
+        android:layout_marginLeft="180dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:checked="false"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cb3"
+        android:text="Green Pepper"
+        android:id="@+id/cb4"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:checked="false"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cb3"
+        android:text="Pineapple"
+
+        android:id="@+id/cb9"
+        android:layout_marginLeft="180dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:checked="false"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cb4"
+        android:text="Onion"
+        android:id="@+id/cb5"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:checked="false"
+        />
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cb4"
+        android:text="Crispy chicken"
+
+        android:id="@+id/cb10"
+        android:layout_marginLeft="180dp"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:checked="false"
+        />
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/cb10"
+    android:textSize="20dp"
+    android:id="@+id/price"
+    android:text="Price"
+    android:layout_marginLeft="30dp"
+    android:textColor="@color/yellow"
+    android:textStyle="bold"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add To Cart"
+        android:textStyle="bold"
+        android:id="@+id/button"
+        android:layout_below="@id/price"
+        android:layout_marginLeft="130dp"
+        />
+</RelativeLayout>
+</ScrollView>
